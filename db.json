@@ -1,0 +1,36 @@
+{
+    "overdrive": [{
+            "issue": "Rundown(s) Won't Load",
+            "fix": "Reset the Gateway"
+        },
+        {
+            "issue": "Lights are red",
+            "fix": "Reset the Gateway"
+        }
+    ],
+    "vinten": [{
+            "issue": "Thumbnails are green",
+            "fix": "Close and reopen program.  Resave the shot over the the green thumbnail."
+        },
+        {
+            "issue": "Disable Camera",
+            "fix": "Press the enable button"
+        }
+
+    ],
+    "xpression": {
+
+    },
+    "acuity": {
+
+    },
+    "caprica": {
+
+    },
+    "router": {
+
+    },
+    "PCR-switch": {
+
+    }
+}
