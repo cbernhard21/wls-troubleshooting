@@ -49,6 +49,8 @@ h1 {
 /* PAGE SECTIONS */
 
 .grid-container {
+  margin: 0 auto;
+  max-width: 1800px;
   min-height: 100vh;
   display: grid;
   grid-template-columns: minmax(10px, 230px) 1fr;
