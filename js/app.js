@@ -1,7 +1,11 @@
 'use strict'
 
-import { getNavHtml } from './navHtml.js';
+import { getNavHtml, } from './getComponents.js';
+import { getHeaderHtml } from './getComponents.js';
 import { displayIssue } from './displayHtml.js';
+import { navSlide } from './navSlide.js';
+
+
 
 const contentData = document.querySelector('#content-data');
 
@@ -29,4 +33,5 @@ function checkPage(pathname, testData) {
 }
 
 getNavHtml();
-getData();
+getHeaderHtml(navSlide);
+// getData();
