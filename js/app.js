@@ -2,6 +2,7 @@
 
 import { getNavHtml, } from './getComponents.js';
 import { getHeaderHtml } from './getComponents.js';
+// import { getComponents } from './getComponents.js';
 import { displayIssue } from './displayHtml.js';
 import { navSlide } from './navSlide.js';
 
@@ -34,4 +35,4 @@ function checkPage(pathname, testData) {
 
 getNavHtml();
 getHeaderHtml(navSlide);
-// getData();
+// getComponents(navSlide);

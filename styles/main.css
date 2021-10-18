@@ -4,7 +4,6 @@
   --blue-hover: rgb(66, 61, 204);
   --white: #F9F9F9;
   --btn-border: #e5e5e5;
-  --screen-medium: 800px;
 }
 
 
@@ -25,7 +24,7 @@ h1 {
   font-size: 3rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   h1 {
     font-size: 2rem;
   }
@@ -84,7 +83,7 @@ h1 {
   order: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .nav, .header-container, .main-container {
     grid-column: 1 / -1
   }
@@ -116,7 +115,7 @@ h1 {
   font-size: 3rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 800px) {
   .header h2 {
     font-size: 2rem;
   }
@@ -145,7 +144,7 @@ h1 {
   left: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .burger-menu {
     display: block;
     z-index: 1101;
@@ -198,7 +197,7 @@ h1 {
   list-style-type: none;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 950px) {
   .nav {
     transform: translateX(-100%);
     transition: transform 0.5s ease-out;
@@ -218,7 +217,7 @@ h1 {
 
 /* BURGER MENU MEDIA QUERY */
 
-@media (max-width: 780px) {
+@media (max-width: 950px) {
   .slide {
     transform: translateX(0%);
   }
@@ -240,6 +239,42 @@ h1 {
 
 .main-container {
   padding: 2rem;
+}
+
+.main-card>* {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.main-card {
+  padding: 1rem;
+}
+
+.main-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-card ul {
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 800px) {
+  .main-card>* {
+    font-size: 1rem;
+  }
+  .main-card h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-card>* {
+    font-size: 1rem;
+  }
+  .main-card h2 {
+    font-size: 1.5rem;
+  }
 }
 
 

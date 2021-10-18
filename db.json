@@ -32,5 +32,14 @@
     },
     "PCR-switch": {
 
-    }
+    },
+    "Numbers": [{
+            "department": "Engineering",
+            "number": "1111"
+        },
+        {
+            "department": "IT",
+            "number": "2222"
+        }
+    ]
 }
