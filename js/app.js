@@ -2,37 +2,66 @@
 
 import { getNavHtml, } from './getComponents.js';
 import { getHeaderHtml } from './getComponents.js';
-// import { getComponents } from './getComponents.js';
-import { displayIssue } from './displayHtml.js';
+// import { getFooterHtml } from './getComponents.js';
 import { navSlide } from './navSlide.js';
+import { displayOverdriveHtml, displayVintenHtml } from './displayHtml.js';
 
 
+// global variables
+const path = window.location.pathname;
 
-const contentData = document.querySelector('#content-data');
 
-async function getData() {
+// gets and displays phone numbers from the JSON file
+async function getPhoneNumbers() {
     const response = await fetch('./db.json');
     const data = await response.json();
 
-    const path = window.location.pathname;
-    checkPage(path, data);
+    let departments = data.numbers;
+    let numberUl = document.querySelector('.numbers');
+    let numberHtml = ``;
+
+    let phoneNumbers = departments.map(department => {
+        numberHtml = `<li>${department.department} ${department.number}</li>`
+        return numberHtml;
+    }).join('');
+
+    numberUl.innerHTML = phoneNumbers;
+
 }
 
 //check the page for the correct info
 
-function checkPage(pathname, testData) {
-    if (pathname === '/vinten.html') {
-        console.log('vinten')
-        displayIssue(testData.vinten, contentData);
+function checkPage(pathname, phoneNumberFunc) {
+    if (pathname === '/index.html') {
+        console.log('homepage');
+        phoneNumberFunc();
     }
-
     if (pathname === '/overdrive.html') {
-        console.log(pathname);
-        console.log(testData.overdrive);
-
+        console.log('overdrive');
+        displayOverdriveHtml();
+    }
+    if (pathname === '/vinten.html') {
+        console.log('vinten');
+        displayVintenHtml();
+    }
+    if (pathname === '/acuity.html') {
+        console.log('acuity');
+    }
+    if (pathname === '/caprica.html') {
+        console.log('caprica');
+    }
+    if (pathname === '/xpression.html') {
+        console.log('xpression');
+    }
+    if (pathname === '/router.html') {
+        console.log('router sources');
+    }
+    if (pathname === '/switch.html') {
+        console.log('switch PCRs');
     }
 }
 
 getNavHtml();
 getHeaderHtml(navSlide);
-// getComponents(navSlide);
+// getFooterHtml();
+checkPage(path, getPhoneNumbers);

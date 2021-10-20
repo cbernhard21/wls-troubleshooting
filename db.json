@@ -1,45 +1,61 @@
 {
-    "overdrive": [{
-            "issue": "Rundown(s) Won't Load",
-            "fix": "Reset the Gateway"
-        },
-        {
-            "issue": "Lights are red",
-            "fix": "Reset the Gateway"
-        }
-    ],
-    "vinten": [{
-            "issue": "Thumbnails are green",
-            "fix": "Close and reopen program.  Resave the shot over the the green thumbnail."
-        },
-        {
-            "issue": "Disable Camera",
-            "fix": "Press the enable button"
-        }
+    "services": {
+        "overdrive": [{
+                "issue": "Rundowns will not load to Overdrive",
+                "fix": "Reset the Gateway services",
+                "steps": [
+                    "Close all Overdrive programs (Rundown Control and Direct Control)",
+                    "Open the overdrive server from the desktop",
+                    "Login, username: password:",
+                    "To go Tools > Services",
+                    "Press Stop for all 4 options. Wait until all switch to stop and the stop buttons are greyed out.",
+                    "Press the start button on each service. Best to do one at a time. Wait until all lights are green.",
+                    "Close Web interface.",
+                    "Launch Rundown Control and Direct Control. Make sure all lights are green.",
+                    "Try loading rundowns"
+                ],
+                "notes": "Entire process should take less than 10 minutes. Be patient while stopping and starting the services. It may take a minute after you press the start and/or stop button."
+            },
+            {
+                "issue": "Codes are not working properly",
+                "fix": "Directions to reload Custom Controls",
+                "steps": [
+                    "Go to Rundown Control and select Tools from the top menu",
+                    "Select Reload Custom Controls"
+                ],
+                "notes": "You would also do this if any custom controls are appearing red in a overdrive shot."
+            },
+            {
+                "issue": "Device swap for a lost of server channel",
+                "fix": "Directions how to device swap",
+                "steps": [
+                    "Go to the upper right corner of Rundown Control",
+                    "Select the orange icon that says Device Swap"
+                ],
+                "notes": ""
+            },
+            {
+                "issue": "When to do a hot swap",
+                "fix": "Directions and advice when to do a hot swap",
+                "steps": "",
+                "notes": ""
+            }
 
-    ],
-    "xpression": {
+        ],
+        "xpression": [{}],
+        "acuity": [{}],
+        "caprica": [{}],
+        "vinten": [{}]
 
     },
-    "acuity": {
 
-    },
-    "caprica": {
-
-    },
-    "router": {
-
-    },
-    "PCR-switch": {
-
-    },
-    "Numbers": [{
+    "numbers": [{
             "department": "Engineering",
-            "number": "1111"
+            "number": "7224"
         },
         {
             "department": "IT",
-            "number": "2222"
+            "number": "7999"
         }
     ]
 }

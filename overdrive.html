@@ -19,35 +19,29 @@
     <div class="nav"></div>
 
     <main class="main-container">
+
       <h2 class="main-title">Overdrive Issues</h2>
 
-      <details>
-        <summary class="pointer">Rundowns will not load to Overdrive</summary>
-        <article>
-          <p>Reset services on the Gateway</p>
-        </article>
-      </details>
+      <div class="data-container"></div>
 
-      <details>
-        <summary class="pointer">Codes are not working properly</summary>
-        <article>
-          <p>Make sure all Custom Controls are loaded.</p>
-          <ul>
-            <li>On Rundown Control go to Tools</li>
-            <li>Select "reload custom controls"</li>
+      <details class="details">
+        <summary class="details-issue pointer">Common Terminology and Important Information</summary>
+        <article class="details-solution">
+          <ul class="details-solution-list">
+            <li class="details-solution-steps">Primary = ....</li>
+            <li class="details-solution-steps">Redundant = ....</li>
+            <li class="details-solution-steps">Backup = ....</li>
+            <li class="details-solution-steps">PCR 1 Primary IP = </li>
+            <li class="details-solution-steps">PCR 1 Backup IP = </li>
+            <li class="details-solution-steps">PCR 2 Primary IP = </li>
+            <li class="details-solution-steps">PCR 2 Backup IP = </li>
           </ul>
-        </article>
-      </details>
-
-      <details>
-        <summary class="pointer">Master List of Quick Codes and Quick Audio</summary>
-        <article>
-          <p>Quick Code and Quick Audio table</p>
+          <p class="details-notes">${notes}</p>
         </article>
       </details>
 
     </main>
-
+    <!-- <div class="footer"></div> -->
   </div>
 
   <script src="js/app.js" type="module"></script>
