@@ -40,6 +40,10 @@ p {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 
 /* UTILITES */
 
@@ -59,6 +63,38 @@ p {
   text-align: center;
   padding: 20px 0;
 }
+
+.bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+
+/* 
+.flex-first {}
+
+.flex-second {} */
 
 
 /* PAGE SECTIONS */
@@ -103,7 +139,7 @@ p {
   order: 4;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1025px) {
   .nav, .header-container, .main-container {
     grid-column: 1 / -1
   }
@@ -154,7 +190,6 @@ p {
 
 .burger-menu {
   width: 40px;
-  /* border: 1px solid var(--black); */
   margin: 2rem;
   display: none;
   z-index: 10;
@@ -164,7 +199,7 @@ p {
   left: 0;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1025px) {
   .burger-menu {
     display: block;
     z-index: 1101;
@@ -194,6 +229,8 @@ p {
 
 .nav {
   height: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-main {
@@ -217,7 +254,7 @@ p {
   list-style-type: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1025px) {
   .nav {
     transform: translateX(-100%);
     transition: transform 0.5s ease-out;
@@ -237,7 +274,7 @@ p {
 
 /* BURGER MENU MEDIA QUERY */
 
-@media (max-width: 950px) {
+@media (max-width: 1025px) {
   .slide {
     transform: translateX(0%);
   }
@@ -328,8 +365,18 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.details-solution-steps {
+  margin-bottom: .5rem;
+}
+
 .details-notes {
   font-style: italic;
+}
+
+@media screen and (max-width: 400px) {
+  .details-issue, .details-solution {
+    font-size: 1rem;
+  }
 }
 
 
@@ -352,9 +399,13 @@ details[open]>summary:before {
   transform: rotate(90deg);
 }
 
-.details-solution-steps {
-  list-style-position: inside;
-  margin-bottom: .5rem;
+@media screen and (max-width: 400px) {
+  summary:before {
+    border-width: .5rem;
+    position: absolute;
+    top: 1.3rem;
+    left: .85rem;
+  }
 }
 
 
