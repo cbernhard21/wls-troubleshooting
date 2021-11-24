@@ -57,5 +57,22 @@
             "department": "IT",
             "number": "7999"
         }
+    ],
+    "IPaddresses": [{
+            "device": "PCR 1 Overdrive Main IP",
+            "ip": "10.218.40.10"
+        },
+        {
+            "device": "PCR 1 Overdrive Backup IP",
+            "ip": "10.218.40.20"
+        },
+        {
+            "device": "PCR 2 Overdrive Main IP",
+            "ip": "10.218.40.110"
+        },
+        {
+            "device": "PCR 2 Overdrive Backup IP",
+            "ip": "10.218.40.120"
+        }
     ]
 }

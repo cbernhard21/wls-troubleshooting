@@ -21,7 +21,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--white);
+  background-color: var(--light-grey);
   color: var(--black);
 }
 
@@ -342,10 +342,10 @@ img {
   position: relative;
   background-color: var(--dark-grey);
   border-radius: 5px;
+  border: 1px solid green;
 }
 
 .details-issue {
-  /* color: var(--white); */
   font-size: 1.5rem;
   list-style: none;
   padding: 1.2rem 2rem;
@@ -367,6 +367,7 @@ img {
 
 .details-solution-steps {
   margin-bottom: .5rem;
+  margin-left: 2rem;
 }
 
 .details-notes {
@@ -379,8 +380,9 @@ img {
   }
 }
 
-
-/* details[open]>.details-issue {} */
+details[open]>.details-issue {
+  color: red;
+}
 
 summary:before {
   content: '';
