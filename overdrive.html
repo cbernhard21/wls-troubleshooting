@@ -17,34 +17,31 @@
 
     <main class="main-container">
 
-      <h2 class="main-title">Overdrive Issues</h2>
+      <article class="description flex flex-d-column flex-gap-1" id="vinten-issues">
+        <h2 class="description-title">Overdrive Issues</h2>
+        <!-- container for all issues and steps -->
+        <div class="data-container"></div>
 
-      <!-- container for all issues and steps -->
-      <div class="data-container"></div>
+        <details class="details">
+          <summary class="details-issue pointer">Common Terminology and Important Information</summary>
+          <article class="details-solution">
+            <div class="details-solution-list">
+              <p class="details-solution-steps">Primary = ....</p>
+              <p class="details-solution-steps">Redundant = ....</p>
+              <p class="details-solution-steps">Backup = ....</p>
 
+              <!-- container for IP addresses -->
+              <div class="overdrive-ips"></div>
+              <img class="mb-1" src="images/circle-of-MOS-min.png" alt="Cirlce Of MOS">
+              <img class="mb-1" src="images/overdrive-workflow-min.PNG" alt="Overdrive Work Flow">
+              <img class="mb-1" src="images/redundancy2-min.png" alt="Redundancy">
 
-      <details class="details">
-        <summary class="details-issue pointer">Common Terminology and Important Information</summary>
-        <article class="details-solution">
-          <div class="details-solution-list">
-            <p class="details-solution-steps">Primary = ....</p>
-            <p class="details-solution-steps">Redundant = ....</p>
-            <p class="details-solution-steps">Backup = ....</p>
+            </div>
+            <p class="details-notes">${notes}</p>
+          </article>
+        </details>
 
-            <!-- container for IP addresses -->
-            <div class="overdrive-ips"></div>
-            <img class="mb-1" src="images/circle-of-MOS-min.png" alt="Cirlce Of MOS">
-            <img class="mb-1" src="images/overdrive-workflow-min.PNG" alt="Overdrive Work Flow">
-            <img class="mb-1" src="images/redundancy2-min.png" alt="Redundancy">
-
-          </div>
-          <p class="details-notes">${notes}</p>
-        </article>
-      </details>
-
-
-
-
+      </article>
 
     </main>
     <!-- <div class="footer"></div> -->

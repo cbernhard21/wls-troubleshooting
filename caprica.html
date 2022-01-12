@@ -17,7 +17,7 @@
 
     <main class="main-container">
       <h2 class="main-title">Caprica</h2>
-      <article class="description">
+      <article class="description flex flex-d-column flex-gap-1">
         <h2 class="description-title">What is Caprica?</h2>
         <p class="description-text">The simplest way to explain Caprica is, it is the software that connects all the control room devices to each other.</p>
         <p class="description-text">Example of the flow of Information:</p>
@@ -26,8 +26,8 @@
       </article>
 
       <article class="description">
+        <h2 class="description-title">Caprica connects to all devices</h2>
         <ul class="description-list">
-          <h2 class="description-title">Caprica connects to all devices</h2>
           <li class="description-list-item">Overdrive</li>
           <li class="description-list-item">Acuity/Switcher</li>
           <li class="description-list-item">Xpression</li>
@@ -37,14 +37,34 @@
       </article>
 
       <article class="description">
+        <h2 class="description-title">What Else Does Caprica Do?</h2>
         <ul class="description-list">
-          <h2 class="description-title">What Else Does Caprica Do?</h2>
           <li class="description-list-item">All custom controls are stored in Caprica.</li>
           <li class="description-list-item">Shotbox configuration is setup through Caprica.</li>
           <li class="description-list-item">The Audio portion of the shotbox (sideshot) is setup through Caprica.</li>
           <li class="description-list-item">Virtual Channels are setup through Caprica.</li>
           <li class="description-list-item">Port configuration is done through Caprica.</li>
         </ul>
+      </article>
+
+      <article class="description flex flex-d-column flex-gap-1">
+        <h2 class="description-title">Issues with Caprica</h2>
+        <p class="description-text">If a device is not working while running Rundown Control (cameras not moving). Enable all devices.</p>
+
+        <section id="enable-devices">
+          <h3>How To Enable Devices</h3>
+          <ul class="description-list">
+            <li class="description-list-item">On Dashboard, open the Custom Control Tab.</li>
+            <li class="description-list-item">Go to bank 32, button 3, labeled <strong>Disable Devices</strong>, single click on it.</li>
+            <li class="description-list-item">Click <strong>Run From Here</strong></li>
+            <li class="description-list-item">Wait about 30 seconds.</li>
+            <li class="description-list-item">Select <strong>Enable Devices</strong>, the next Custom Control</li>
+            <li class="description-list-item">Click <strong>Run From Here</strong></li>
+            <li class="description-list-item">Wait about 30 seconds</li>
+            <li class="description-list-item">All devices should be reconnected and working with Overdrive</li>
+          </ul>
+        </section>
+
       </article>
 
     </main>

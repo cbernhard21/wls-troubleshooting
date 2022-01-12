@@ -49,26 +49,11 @@
         "acuity": [{}],
         "caprica": [{}],
         "vinten": [{
-                "issue": "Cameras are not moving through Overdrive",
-                "fix": "Reset devices in Caprica",
-                "steps": [
-                    "On dashboard, open the Custom Control tab",
-                    "Go to bank 32, button 3, labeled disable devices and highlight the CC",
-                    "Click Run From Here",
-                    "Wait about 30 seconds",
-                    "Select enable devices, the next Custom Control",
-                    "Click Run From Here",
-                    "Wait about 30 seconds",
-                    "Cameras should be working with Overdrive now."
-                ],
-                "notes": "This process disconnects Caprica from all devices and reconnects.  The shot box will blink and you may have to reload a rundown afterwards.  That is all normal"
-            },
-            {
                 "issue": "No control of a camera on the touch screen or joystick",
                 "fix": "Enable Camera",
                 "steps": [
-                    "Select the Camera you can not move on the controller",
-                    "On the camera touchscreen, select Opts",
+                    "Select the camera you can not move on the controller",
+                    "On the camera touchscreen, select Opts in the bottom right corner",
                     "Select Enable"
                 ],
                 "notes": "This process takes about 45 seconds.  Stay patient."

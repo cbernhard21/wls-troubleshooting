@@ -44,6 +44,12 @@ img {
   max-width: 100%;
 }
 
+a,
+a:visited,
+a:link {
+  color: var(--blue);
+}
+
 
 /* UTILITES */
 
@@ -76,6 +82,14 @@ img {
   flex-direction: row;
 }
 
+.flex-d-column {
+  flex-direction: column;
+}
+
+.flex-gap-1 {
+  gap: 1rem;
+}
+
 @media screen and (max-width: 800px) {
   .flex-direction {
     flex-direction: column;
@@ -105,8 +119,12 @@ img {
   margin: 1rem 0;
 }
 
+.description p {
+  max-width: 100ch;
+}
+
 .description-text {
-  margin: 0.5rem;
+  gap: 1rem;
 }
 
 .description-list-item {
@@ -261,6 +279,7 @@ img {
   padding: 0.75rem 2.5rem;
   border: 1px solid var(--btn-border);
   transition: all 0.2s;
+  color: var(--white);
 }
 
 .nav-main .btn:hover {
@@ -354,15 +373,11 @@ img {
 
 /*DETAILS STYLES WITHIN MAIN SECTION */
 
-.details-container {
-  background-color: var(--white);
-}
-
 .details {
   margin-bottom: 1.5rem;
   position: relative;
   border-radius: 5px;
-  background-color: var(--white);
+  background-color: var(--light-grey);
   box-shadow: 5px 5px 40px 1px rgba(201, 201, 201, 0.2);
 }
 

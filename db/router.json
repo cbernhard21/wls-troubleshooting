@@ -568,6 +568,186 @@
             "entry": "560",
             "source": "AVID 6 HD",
             "description": "AVID 6 HD"
+        },
+        {
+            "category": "FS",
+            "entry": "1",
+            "source": "FS 1",
+            "description": "FRAME SYNC 1 - MINI 1"
+        },
+        {
+            "category": "FS",
+            "entry": "2",
+            "source": "FS 2",
+            "description": "FRAME SYNC 2 - MINI 2"
+        },
+        {
+            "category": "FS",
+            "entry": "3",
+            "source": "FS 3",
+            "description": "FRAME SYNC 3 - MINI 3"
+        },
+        {
+            "category": "FS",
+            "entry": "4",
+            "source": "FS 4",
+            "description": "FRAME SYNC 4 - MINI 4"
+        },
+        {
+            "category": "FS",
+            "entry": "5",
+            "source": "FS 5",
+            "description": "FRAME SYNC 5 - GOV STATE"
+        },
+        {
+            "category": "FS",
+            "entry": "6",
+            "source": "FS 6",
+            "description": "FRAME SYNC 6 - LAKE ZURICH"
+        },
+        {
+            "category": "FS",
+            "entry": "7",
+            "source": "FS 7",
+            "description": "FRAME SYNC 7 - ELBURN"
+        },
+        {
+            "category": "FS",
+            "entry": "8",
+            "source": "FS 8",
+            "description": "FRAME SYNC 8 - VYVX 1"
+        },
+        {
+            "category": "FS",
+            "entry": "9",
+            "source": "FS 9",
+            "description": "FRAME SYNC 9 - ROUTEABLE FROM TRANSMISSION"
+        },
+        {
+            "category": "FS",
+            "entry": "10",
+            "source": "FS 10",
+            "description": "FRAME SYNC 10 - ROUTEABLE FROM TRANSMISSION"
+        },
+        {
+            "category": "FS",
+            "entry": "11",
+            "source": "FS 11",
+            "description": "FRAME SYNC 11 - HANCOCK 23 GHZ RX #1"
+        },
+        {
+            "category": "FS",
+            "entry": "12",
+            "source": "FS 12",
+            "description": "FRAME SYNC 12 - HANCOCK 23 GHZ RX #2"
+        },
+        {
+            "category": "FS",
+            "entry": "13",
+            "source": "FS 13",
+            "description": "FRAME SYNC 13 - DIGITAL RX #9"
+        },
+        {
+            "category": "FS",
+            "entry": "14",
+            "source": "FS 14",
+            "description": "FRAME SYNC 14 - VERTEX C/KU RECEIVER 1 ANALOG"
+        },
+        {
+            "category": "FS",
+            "entry": "15",
+            "source": "FS 15",
+            "description": "FRAME SYNC 15 - VERTEX C/KU RECEIVER 2 HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "16",
+            "source": "FS 16",
+            "description": "FRAME SYNC 16 - ANDREW 4.5 C/KU RECEIVER 1 ANALOG"
+        },
+        {
+            "category": "FS",
+            "entry": "17",
+            "source": "FS 17",
+            "description": "FRAME SYNC 17 - ANDREW 4.5 C/KU RECEIVER 2 HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "18",
+            "source": "FS 18",
+            "description": "FRAME SYNC 18 - ANDREW 5.6 KU RECEIVER 1 DIGITAL HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "19",
+            "source": "FS 19",
+            "description": "FRAME SYNC 19 - ANDREW 5.6 KU RECEIVER 2 DIGITAL HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "20",
+            "source": "FS 20",
+            "description": "FRAME SYNC 20 - ROUTABLE ANALOG C/KU RECEIVER 3"
+        },
+        {
+            "category": "FS",
+            "entry": "21",
+            "source": "FS 21",
+            "description": "FRAME SYNC 21 - ROUTABLE DIGITAL RECEIVER 5 HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "22",
+            "source": "FS 22",
+            "description": "FRAME SYNC 22 - ROUTABLE DIGITAL RECEIVER 6 HD/SD"
+        },
+        {
+            "category": "FS",
+            "entry": "23",
+            "source": "FS 23",
+            "description": "FRAME SYNC 21 - CNN 3"
+        },
+        {
+            "category": "FS",
+            "entry": "24",
+            "source": "FS 24",
+            "description": "FRAME SYNC 24 - ROUTABLE HD/SD IN"
+        },
+        {
+            "category": "FS",
+            "entry": "25",
+            "source": "FS 25",
+            "description": "FRAME SYNC 25 - ROUTABLE HD/SD IN"
+        },
+        {
+            "category": "FS",
+            "entry": "26",
+            "source": "FS 26",
+            "description": "FRAME SYNC 26 - ROUTABLE HD/SD IN"
+        },
+        {
+            "category": "FS",
+            "entry": "27",
+            "source": "FS 27",
+            "description": "FRAME SYNC 27 - ROUTABLE HD/SD IN"
+        },
+        {
+            "category": "FS",
+            "entry": "28",
+            "source": "FS 28",
+            "description": "FRAME SYNC 28 - ABC NEWS NOW (News One Channel 2)"
+        },
+        {
+            "category": "FS",
+            "entry": "29",
+            "source": "FS 29",
+            "description": "FRAME SYNC 29 - CNN NEWS SOURCE (channel 1)"
+        },
+        {
+            "category": "FS",
+            "entry": "30",
+            "source": "FS 30",
+            "description": "FRAME SYNC 30 - ND SATCOM SENCORE IRD"
         }
     ]
 }
