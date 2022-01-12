@@ -469,7 +469,7 @@ details[open]>summary:before {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
-  width: 50%;
+  width: max-content;
 }
 
 @media screen and (max-width: 1025px) {
