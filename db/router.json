@@ -1,0 +1,573 @@
+{
+    "router": [{
+            "category": "CAM",
+            "entry": "1",
+            "source": "CAMERA 1",
+            "description": "PCR1 CAMERA 1"
+        },
+        {
+            "category": "CAM",
+            "entry": "2",
+            "source": "CAMERA 2",
+            "description": "PCR1 CAMERA 2"
+        },
+        {
+            "category": "CAM",
+            "entry": "3",
+            "source": "CAMERA 3",
+            "description": "PCR1 CAMERA 3"
+        },
+        {
+            "category": "CAM",
+            "entry": "5",
+            "source": "CAMERA 5",
+            "description": "PCR1 CAMERA 5 - HAND HELD"
+        },
+        {
+            "category": "CAM",
+            "entry": "6",
+            "source": "CAMERA 6",
+            "description": "PCR1 CAMERA 6"
+        },
+        {
+            "category": "CAM",
+            "entry": "7",
+            "source": "CAMERA 7",
+            "description": "PCR1 CAMERA 7"
+        },
+        {
+            "category": "CAM",
+            "entry": "11",
+            "source": "CAMERA 11",
+            "description": "CAMERA CCU 11 (TV3 STUDIO CAMERA #1)"
+        },
+        {
+            "category": "CAM",
+            "entry": "12",
+            "source": "CAMERA 12",
+            "description": "CAMERA CCU 12 (TV3 STUDIO CAMERA #2)"
+        },
+        {
+            "category": "CAM",
+            "entry": "13",
+            "source": "CAMERA 13",
+            "description": "CAMERA CCU 11 (TV3 STUDIO CAMERA #3)"
+        },
+        {
+            "category": "CAM",
+            "entry": "14",
+            "source": "CAMERA 14",
+            "description": "CAMERA CCU 14 (TV2 STUDIO DEMO CAMERA #1)"
+        },
+        {
+            "category": "CAM",
+            "entry": "15",
+            "source": "CAMERA 15",
+            "description": "CAMERA CCU 15 (TV2 STUDIO DEMO CAMERA #2)"
+        },
+        {
+            "category": "CAM",
+            "entry": "16",
+            "source": "CAMERA 16",
+            "description": "CAMERA CCU 16 (TV2 STUDIO HAND HELD CAMERA)"
+        },
+        {
+            "category": "CAM",
+            "entry": "17",
+            "source": "CAMERA 17",
+            "description": "CAMERA CCU 17 (WINDY CITY LIVE CAM 1)"
+        },
+        {
+            "category": "CAM",
+            "entry": "18",
+            "source": "CAMERA 18",
+            "description": "CAMERA CCU 18 (WINDY CITY LIVE CAM 3)"
+        },
+        {
+            "category": "CAM",
+            "entry": "19",
+            "source": "CAMERA 19",
+            "description": "CAMERA CCU 19 (WINDY CITY LIVE HAND HELD CAM #5)"
+        },
+        {
+            "category": "CAM",
+            "entry": "35",
+            "source": "FLASH CAM",
+            "description": "FLASH CAMERA WITH MIC"
+        },
+        {
+            "category": "CAM",
+            "entry": "102",
+            "source": "WX TLCAM",
+            "description": "SEARS WX TIME LAPSE CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "110",
+            "source": "CAMERA 9",
+            "description": "PCR 1 CAMERA 9"
+        },
+        {
+            "category": "CAM",
+            "entry": "112",
+            "source": "TV1 FOOD CAMERA",
+            "description": "TV1 FOOD CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "113",
+            "source": "MACYS CAMERA",
+            "description": "MACY'S CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "114",
+            "source": "CAMERA 114",
+            "description": "TV1 WEATHER CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "115",
+            "source": "CAMERA 115",
+            "description": "NEWS FLASH CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "117",
+            "source": "SEARS NORTH",
+            "description": "SEARS NORTH CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "118",
+            "source": "SEARS W",
+            "description": "SEARS WEST CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "119",
+            "source": "SEARS S",
+            "description": "SEARS SOUTH CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "120",
+            "source": "HANCOCK N",
+            "description": "HANCOCK NORTH CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "121",
+            "source": "HANCOCK S",
+            "description": "HANCOCK SOUTH CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "122",
+            "source": "DALEY PLAZA",
+            "description": "DALEY PLAZA CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "123",
+            "source": "WX OFFICE",
+            "description": "WEATHER OFFICE 3RD FLOOR CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "124",
+            "source": "WCL JIB",
+            "description": "WINDY CITY LIVE JIB CAMERA 2"
+        },
+        {
+            "category": "CAM",
+            "entry": "125",
+            "source": "WCL POV",
+            "description": "WINDY CITY LIVE POV CAMERA 4"
+        },
+        {
+            "category": "CAM",
+            "entry": "126",
+            "source": "WCL FOOD",
+            "description": "WINDY CITY LIVE FOOD CAMERA 6"
+        },
+        {
+            "category": "CAM",
+            "entry": "127",
+            "source": "RIVERWALK",
+            "description": "RIVERWALK CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "129",
+            "source": "COLUMBIA",
+            "description": "COLUMBIA COLLEGE CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "130",
+            "source": "TRANSMISSION",
+            "description": "TRANSMISSION CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "131",
+            "source": "HD WX 1",
+            "description": "REMOTE HD WEATHER CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "132",
+            "source": "HD WX 2",
+            "description": "REMOTE HD WEATHER CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "133",
+            "source": "HD WX 3",
+            "description": "REMOTE HD WEATHER CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "134",
+            "source": "HD WX 4",
+            "description": "REMOTE HD WEATHER CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "135",
+            "source": "CAM 135",
+            "description": "SKYPE CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "136",
+            "source": "CAM 136",
+            "description": "RADAR SITE DRIFT CAM"
+        },
+        {
+            "category": "CAM",
+            "entry": "137",
+            "source": "CAM 137",
+            "description": "SHEDD AQUARIUM CAMERA"
+        },
+        {
+            "category": "CAM",
+            "entry": "201",
+            "source": "CAM 201",
+            "description": "TV2 STUDIO CAMERA 1"
+        },
+        {
+            "category": "CAM",
+            "entry": "202",
+            "source": "CAM 202",
+            "description": "TV2 STUDIO CAMERA 2"
+        },
+        {
+            "category": "CAM",
+            "entry": "203",
+            "source": "CAM 203",
+            "description": "TV2 STUDIO CAMERA 3"
+        },
+        {
+            "category": "CAM",
+            "entry": "500",
+            "source": "CAM 500",
+            "description": "TOLLWAY COMPUTER OUTPUT 1"
+        },
+        {
+            "category": "CAM",
+            "entry": "501",
+            "source": "CAM 501",
+            "description": "TOLLWAY COMPUTER OUTPUT 2"
+        },
+        {
+            "category": "DISK",
+            "entry": "51",
+            "source": "Brio 5-1",
+            "description": "DALET SERVER CHANNEL 5-1"
+        },
+        {
+            "category": "DISK",
+            "entry": "52",
+            "source": "Brio 5-2",
+            "description": "DALET SERVER CHANNEL 5-2"
+        },
+        {
+            "category": "DISK",
+            "entry": "53",
+            "source": "Brio 5-3",
+            "description": "DALET SERVER CHANNEL 5-3"
+        },
+        {
+            "category": "DISK",
+            "entry": "54",
+            "source": "Brio 5-4",
+            "description": "DALET SERVER CHANNEL 5-4"
+        },
+        {
+            "category": "DISK",
+            "entry": "55",
+            "source": "Brio 5-5",
+            "description": "DALET SERVER CHANNEL 5-5"
+        },
+        {
+            "category": "DISK",
+            "entry": "56",
+            "source": "Brio 5-6",
+            "description": "DALET SERVER CHANNEL 5-6"
+        },
+        {
+            "category": "DISK",
+            "entry": "61",
+            "source": "Brio 6-1",
+            "description": "DALET SERVER CHANNEL 6-1"
+        },
+        {
+            "category": "DISK",
+            "entry": "62",
+            "source": "Brio 6-2",
+            "description": "DALET SERVER CHANNEL 6-2"
+        },
+        {
+            "category": "DISK",
+            "entry": "63",
+            "source": "Brio 6-3",
+            "description": "DALET SERVER CHANNEL 6-3"
+        },
+        {
+            "category": "DISK",
+            "entry": "64",
+            "source": "Brio 6-4",
+            "description": "DALET SERVER CHANNEL 6-4"
+        },
+        {
+            "category": "DISK",
+            "entry": "55",
+            "source": "Brio 5-5",
+            "description": "DALET SERVER CHANNEL 6-5"
+        },
+        {
+            "category": "DISK",
+            "entry": "66",
+            "source": "Brio 6-6",
+            "description": "DALET SERVER CHANNEL 6-6"
+        },
+        {
+            "category": "DISK",
+            "entry": "71",
+            "source": "Brio 7-1",
+            "description": "DALET SERVER CHANNEL 7-1"
+        },
+        {
+            "category": "DISK",
+            "entry": "72",
+            "source": "Brio 7-2",
+            "description": "DALET SERVER CHANNEL 7-2"
+        },
+        {
+            "category": "DISK",
+            "entry": "73",
+            "source": "Brio 7-3",
+            "description": "DALET SERVER CHANNEL 7-3"
+        },
+        {
+            "category": "DISK",
+            "entry": "74",
+            "source": "Brio 7-4",
+            "description": "DALET SERVER CHANNEL 7-4"
+        },
+        {
+            "category": "DISK",
+            "entry": "75",
+            "source": "Brio 7-5",
+            "description": "DALET SERVER CHANNEL 7-5"
+        },
+        {
+            "category": "DISK",
+            "entry": "76",
+            "source": "Brio 7-6",
+            "description": "DALET SERVER CHANNEL 7-6"
+        },
+        {
+            "category": "EDIT",
+            "entry": "1",
+            "source": "EDIT 1",
+            "description": "3RD FLOOR EDIT 1"
+        },
+        {
+            "category": "EDIT",
+            "entry": "2",
+            "source": "EDIT 2",
+            "description": "3RD FLOOR EDIT 2"
+        },
+        {
+            "category": "EDIT",
+            "entry": "3",
+            "source": "EDIT 3",
+            "description": "3RD FLOOR EDIT 3"
+        },
+        {
+            "category": "EDIT",
+            "entry": "4",
+            "source": "EDIT 4",
+            "description": "3RD FLOOR EDIT 4"
+        },
+        {
+            "category": "EDIT",
+            "entry": "5",
+            "source": "EDIT 5",
+            "description": "3RD FLOOR EDIT 5"
+        },
+        {
+            "category": "EDIT",
+            "entry": "5",
+            "source": "EDIT 5",
+            "description": "3RD FLOOR EDIT 5"
+        },
+        {
+            "category": "EDIT",
+            "entry": "7",
+            "source": "EDIT 7",
+            "description": "3RD FLOOR EDIT 7"
+        },
+        {
+            "category": "EDIT",
+            "entry": "8",
+            "source": "EDIT 8",
+            "description": "3RD FLOOR EDIT 8"
+        },
+        {
+            "category": "EDIT",
+            "entry": "9",
+            "source": "EDIT 9",
+            "description": "3RD FLOOR EDIT 9"
+        },
+        {
+            "category": "EDIT",
+            "entry": "10",
+            "source": "EDIT 10",
+            "description": "3RD FLOOR EDIT 10"
+        },
+        {
+            "category": "EDIT",
+            "entry": "11",
+            "source": "EDIT 11",
+            "description": "3RD FLOOR EDIT 11"
+        },
+        {
+            "category": "EDIT",
+            "entry": "31",
+            "source": "ATEM MV",
+            "description": "ATEM MULTI VIEWER"
+        },
+        {
+            "category": "EDIT",
+            "entry": "32",
+            "source": "ATEM PGM",
+            "description": "ATEM PROGRAM"
+        },
+        {
+            "category": "EDIT",
+            "entry": "41",
+            "source": "WEBEDIT 1",
+            "description": "3RD FLOOR WEB OFFICE EDIT"
+        },
+        {
+            "category": "EDIT",
+            "entry": "42",
+            "source": "WCL-FCP 1",
+            "description": "4TH FLOOR WINDY CITY LIVE EDIT ROOM 2"
+        },
+        {
+            "category": "EDIT",
+            "entry": "43",
+            "source": "WCL EDIT 3",
+            "description": "4TH FLOOR WINDY CITY LIVE EDIT ROOM 3"
+        },
+        {
+            "category": "EDIT",
+            "entry": "44",
+            "source": "EDIT 44",
+            "description": "4TH FLOOR NEWS EDIT ROOM"
+        },
+        {
+            "category": "EDIT",
+            "entry": "51",
+            "source": "AVID 1 SX",
+            "description": "AVID 1 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "51",
+            "source": "AVID 1 SX",
+            "description": "AVID 1 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "510",
+            "source": "AVID 1 HD",
+            "description": "AVID 1 HD"
+        },
+        {
+            "category": "EDIT",
+            "entry": "52",
+            "source": "AVID 2 SX",
+            "description": "AVID 2 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "520",
+            "source": "AVID 2 HD",
+            "description": "AVID 2 HD"
+        },
+        {
+            "category": "EDIT",
+            "entry": "53",
+            "source": "AVID 3 SX",
+            "description": "AVID 3 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "530",
+            "source": "AVID 3 HD",
+            "description": "AVID 3 HD"
+        },
+        {
+            "category": "EDIT",
+            "entry": "54",
+            "source": "AVID 4 SX",
+            "description": "AVID 4 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "540",
+            "source": "AVID 4 HD",
+            "description": "AVID 4 HD"
+        },
+        {
+            "category": "EDIT",
+            "entry": "55",
+            "source": "AVID 5 SX",
+            "description": "AVID 5 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "550",
+            "source": "AVID 5 HD",
+            "description": "AVID 5 HD"
+        },
+        {
+            "category": "EDIT",
+            "entry": "56",
+            "source": "AVID 6 SX",
+            "description": "AVID 6 SX TAPE DECK"
+        },
+        {
+            "category": "EDIT",
+            "entry": "560",
+            "source": "AVID 6 HD",
+            "description": "AVID 6 HD"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "services": {
+        "overdrive": [{
+                "issue": "Rundowns will not load to Overdrive",
+                "fix": "Reset the Gateway services",
+                "steps": [
+                    "Close all Overdrive programs (Rundown Control and Direct Control)",
+                    "Open the overdrive server from the desktop",
+                    "Login - username: user password: password",
+                    "To go Tools > Services",
+                    "Press Stop for all 4 options. Wait until all switch to stop and the stop buttons are greyed out.",
+                    "Press the start button on each service. Best to do one at a time. Wait until all lights are green.",
+                    "Close Web interface.",
+                    "Launch Rundown Control and Direct Control. Make sure all lights are green.",
+                    "Try loading rundowns"
+                ],
+                "notes": "Entire process should take less than 10 minutes. Be patient while stopping and starting the services. It may take a minute after you press the start and/or stop button."
+            },
+            {
+                "issue": "Custom Controls are not working",
+                "fix": "Directions to reload Custom Controls",
+                "steps": [
+                    "Go to Rundown Control",
+                    "Select Tools from the top menu",
+                    "Select Reload Custom Controls",
+                    "Or press F9"
+                ],
+                "notes": "You would also do this if any custom controls are appearing red in a overdrive shot."
+            },
+            {
+                "issue": "Device swap for a lost of server channel",
+                "fix": "Directions how to device swap",
+                "steps": [
+                    "Go to the upper right corner of Rundown Control",
+                    "Select the blue icon that says Device Swap",
+                    "Select the tab that says Device Sway",
+                    "Pick the Brio channel you would like to swap out"
+                ],
+                "notes": ""
+            },
+            {
+                "issue": "When to do a hot swap",
+                "fix": "Directions and advice when to do a hot swap",
+                "steps": "",
+                "notes": ""
+            }
+        ],
+        "xpression": [{}],
+        "acuity": [{}],
+        "caprica": [{}],
+        "vinten": [{
+                "issue": "Cameras are not moving through Overdrive",
+                "fix": "Reset devices in Caprica",
+                "steps": [
+                    "On dashboard, open the Custom Control tab",
+                    "Go to bank 32, button 3, labeled disable devices and highlight the CC",
+                    "Click Run From Here",
+                    "Wait about 30 seconds",
+                    "Select enable devices, the next Custom Control",
+                    "Click Run From Here",
+                    "Wait about 30 seconds",
+                    "Cameras should be working with Overdrive now."
+                ],
+                "notes": "This process disconnects Caprica from all devices and reconnects.  The shot box will blink and you may have to reload a rundown afterwards.  That is all normal"
+            },
+            {
+                "issue": "No control of a camera on the touch screen or joystick",
+                "fix": "Enable Camera",
+                "steps": [
+                    "Select the Camera you can not move on the controller",
+                    "On the camera touchscreen, select Opts",
+                    "Select Enable"
+                ],
+                "notes": "This process takes about 45 seconds.  Stay patient."
+            },
+            {
+                "issue": "Green Thumbnail On Touch Screen",
+                "fix": "Restart The Program",
+                "steps": [
+                    "Close out the Vinten touchscreen program",
+                    "Reopen the progam",
+                    "Select Robo Operator",
+                    "Load the camera shots from the News file",
+                    "Resave the shot over the green thumbnail"
+                ],
+                "notes": ""
+            }
+        ]
+    },
+    "numbers": [{
+            "department": "Engineering",
+            "number": "7224"
+        },
+        {
+            "department": "IT",
+            "number": "7999"
+        }
+    ],
+    "IPaddresses": [{
+            "device": "PCR 1 Overdrive Main IP",
+            "ip": "10.218.40.10"
+        },
+        {
+            "device": "PCR 1 Overdrive Backup IP",
+            "ip": "10.218.40.20"
+        },
+        {
+            "device": "PCR 2 Overdrive Main IP",
+            "ip": "10.218.40.110"
+        },
+        {
+            "device": "PCR 2 Overdrive Backup IP",
+            "ip": "10.218.40.120"
+        }
+    ],
+    "switchPCRs": [{
+        "title": "Switch from one PCR to another",
+        "directorStepsTitle": "Director Steps",
+        "directorSteps": [
+            "In Dalet, un-mos all needed rundowns for the bad control room.",
+            "Xpression - uncheck the presisent rundown",
+            "Leave the bad control room",
+            "In the good control room - open Rundown Control and Direct Control",
+            "Mos on the rundowns for the control you are in.",
+            "Load shows to Rundown Control.",
+            "Run the Salvo on the router",
+            "Xpression - check the presisent rundown",
+            "Vinten - make sure services are started"
+        ],
+        "engStepsTitle": "Engineering Steps",
+        "engSteps": [""]
+    }]
+}

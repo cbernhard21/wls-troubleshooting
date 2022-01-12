@@ -1,47 +1,48 @@
-'use strict'
+'use strict';
 
-import { getNavHtml, } from './getComponents.js';
+import { getNavHtml } from './getComponents.js';
 import { getHeaderHtml } from './getComponents.js';
 // import { getFooterHtml } from './getComponents.js';
 import { navSlide } from './navSlide.js';
-import { displayOverdriveHtml, displayVintenHtml } from './displayHtml.js';
-
+import {
+    displayOverdriveHtml,
+    displayVintenHtml,
+    displaySwitchHtml,
+} from './displayHtml.js';
+import { displayRouterHtml } from './displayRouter.js';
 
 // global variables
 const path = window.location.pathname;
 
-
 // gets and displays phone numbers from the JSON file
 async function getPhoneNumbers() {
-    const response = await fetch('./db.json');
+    const response = await fetch('./db/db.json');
     const data = await response.json();
 
     let departments = data.numbers;
     let numberUl = document.querySelector('.numbers');
     let numberHtml = ``;
 
-    let phoneNumbers = departments.map(department => {
-        numberHtml = `<li>${department.department} ${department.number}</li>`
-        return numberHtml;
-    }).join('');
+    let phoneNumbers = departments
+        .map((department) => {
+            numberHtml = `<li>${department.department} ${department.number}</li>`;
+            return numberHtml;
+        })
+        .join('');
 
     numberUl.innerHTML = phoneNumbers;
-
 }
 
 //check the page for the correct info
 
 function checkPage(pathname, phoneNumberFunc) {
     if (pathname === '/index.html') {
-        console.log('homepage');
         phoneNumberFunc();
     }
     if (pathname === '/overdrive.html') {
-        console.log('overdrive');
         displayOverdriveHtml();
     }
     if (pathname === '/vinten.html') {
-        console.log('vinten');
         displayVintenHtml();
     }
     if (pathname === '/acuity.html') {
@@ -54,10 +55,10 @@ function checkPage(pathname, phoneNumberFunc) {
         console.log('xpression');
     }
     if (pathname === '/router.html') {
-        console.log('router sources');
+        displayRouterHtml();
     }
     if (pathname === '/switch.html') {
-        console.log('switch PCRs');
+        displaySwitchHtml();
     }
 }
 
